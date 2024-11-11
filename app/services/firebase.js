@@ -3,12 +3,12 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDpITRVoa5AOMiY4Yi-a7Ba8QveOs_0gek',
-  authDomain: 'f2024-ongoing-example.firebaseapp.com',
-  projectId: 'f2024-ongoing-example',
-  storageBucket: 'f2024-ongoing-example.firebasestorage.app',
-  messagingSenderId: '595362775097',
-  appId: '1:595362775097:web:15cdb97ef93c4f42b58de8',
+  apiKey: "AIzaSyC2iTmqnrlSU0sZc70NblQRu9rA4S1E7hg",
+  authDomain: "ember-test2-4eb6c.firebaseapp.com",
+  projectId: "ember-test2-4eb6c",
+  storageBucket: "ember-test2-4eb6c.firebasestorage.app",
+  messagingSenderId: "211230990174",
+  appId: "1:211230990174:web:8e70b1f45e17f93247f9cf"
 };
 
 export default class FirebaseService extends Service {
